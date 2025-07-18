@@ -1,5 +1,35 @@
-# Vue 3 + Vite
+ToDo List на Vue
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Простой и эффективный консольный менеджер задач с сохранением данных в localstorage.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Особенности
+Добавление новых задач
+Просмотр списка всех задач
+Отметка задач как выполненных
+Удаление задач
+Автоматическое сохранение в localstorage
+
+Требования
+Node.js 11.4.2 или новее
+Запуск приложения: 
+
+В консоли находясь в директории проекта
+
+Выполните команду:
+```
+npm run dev
+```
+
+Реализованный функционал
+
+Добавить задачу
+
+Ввод описания новой задачи
+
+Отображение задач с фильтром
+
+Отметить как выполненную
+
+Удалить задачу
+
+Автоматическое сохранение на стороне клиента с механизмом localstorage
